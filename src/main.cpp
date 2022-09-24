@@ -1,7 +1,7 @@
 /*
 Arrows and Enter Keyboard emulation for FNF game.
 
-This is for Rpi Picob board.
+This is for Rpi Pico board.
 
 Work in progeress...
 
@@ -22,7 +22,7 @@ byte led = 25;
 
 byte pressed[NUMBUTTONS], justpressed[NUMBUTTONS], justreleased[NUMBUTTONS]; // buttons states
 
-char codeButton[] = {KEY_RIGHT_ARROW, KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_LEFT_ARROW, KEY_RETURN}; // keyCodes
+char codeButton[] = {KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_RIGHT_ARROW, KEY_RETURN}; // keyCodes
 
 void setup()
 {
